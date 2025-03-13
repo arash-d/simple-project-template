@@ -1,0 +1,15 @@
+{
+    "python.analysis.extraPaths": ["./src"],
+    "files.exclude": {
+        ".coverage": true,
+        ".scannerwork/**": true,
+        "**.swp": true,
+        "**/__pycache__": true,
+        "**/_build": true,
+        "**/.pytest_cache/**": true,
+        "**/*.egg-info": true,
+        "**/.ruff_cache": true,
+        "**/build": true,
+        "**/dist": true
+    }
+}
