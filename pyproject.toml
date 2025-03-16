@@ -15,3 +15,6 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]  # Ensures src/ is in path
+
+[tool.uv.workspace]
+members = ["project-my-package", "project-mypackage", "mypackagename", "project-mypackagename", "mypackage", "foo", "project-foo", "project-zoo", "project-koo", "project-loo", "project-xoo", "project-hoo", "project-soo", "project-aoo", "project-qoo", "project-woo"]

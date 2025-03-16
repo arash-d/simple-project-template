@@ -74,6 +74,12 @@ pythonpath = ["src"]  # Ensures src/ is in path
 
 At `project-test`:
 
+If the packages are not built yet:
+
+```bash
+make build-all
+```
+
 ```bash
 uv run python main.py
 ```
@@ -108,5 +114,5 @@ pytest
 
 I tried to keep this template as simple as possible. These configurations,
 do not make this template production ready. Other possible improvements
-could be, adding Makefile, coverage, `.env` files, basic CI/CD configs, etc.
+could be, adding coverage, `.env` files, basic CI/CD configs, etc.
 
